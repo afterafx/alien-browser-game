@@ -7,7 +7,7 @@ import Canvas from './components/Canvas';
 Auth0.configure({
   domain: 'dev-sn493gss.auth0.com',
   clientID: 'TfWFLHBD4MKuOglY1o5ZVFOon8DkeHHL',
-  redirectUri: 'http://localhost:3000',
+  redirectUri: 'http://localhost:3000/callback',
   responseType: 'token id_token',
   scope: 'openid profile manage:points',
 });
